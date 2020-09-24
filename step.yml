@@ -7,8 +7,8 @@
 # - Bitrise docs: http://devcenter.bitrise.io/
 # - Bitrise CLI guides: http://devcenter.bitrise.io/bitrise-cli/
 
-title: |-
-  test_step1
+title: |
+  test-step1
 summary: |
   Hello world
 description: |
@@ -51,17 +51,15 @@ run_if: ""
 
 deps:
   brew:
-  - name: git
-  - name: wget
+    - name: git
+    - name: wget
   apt_get:
-  - name: git
-  - name: wget
-
+    - name: git
+    - name: wget
 
 toolkit:
   go:
     package_name: github.com/zsolt-marta-bitrise/bitrise-step-test-step1
-
 
 inputs:
   - example_step_input: Default Value - you can leave this empty if you want to
