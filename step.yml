@@ -7,8 +7,7 @@
 # - Bitrise docs: http://devcenter.bitrise.io/
 # - Bitrise CLI guides: http://devcenter.bitrise.io/bitrise-cli/
 
-title: |
-  test-step1
+title: test-step1
 summary: |
   Hello world
 description: |
